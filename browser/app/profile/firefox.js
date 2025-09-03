@@ -600,7 +600,7 @@ pref("browser.urlbar.untrimOnUserInteraction.featureGate", false);
 
 // If changed to true, copying the entire URL from the location bar will put the
 // human readable (percent-decoded) URL on the clipboard.
-pref("browser.urlbar.decodeURLsOnCopy", false);
+pref("browser.urlbar.decodeURLsOnCopy", true);
 
 // Whether or not to move tabs into the active window when using the "Switch to
 // Tab" feature of the awesomebar.
