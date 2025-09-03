@@ -106,7 +106,7 @@ browser.urlbar.ctrlCanonizesURLs (boolean, default: true)
   'go') should prefix 'www.' and suffix browser.fixup.alternate.suffix to the
   user value prior to navigating.
 
-browser.urlbar.decodeURLsOnCopy (boolean, default: false)
+browser.urlbar.decodeURLsOnCopy (boolean, default: true)
   Whether copying the entire URL from the location bar will put a human
   readable (percent-decoded) URL on the clipboard.
 
